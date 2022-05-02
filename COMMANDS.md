@@ -115,7 +115,7 @@ o
 docker run --d --p <peurto local>:<puerto contenedor> <imágen>
 ```
 
-### Conectar a contenedor por terminal de forna interactiva
+### Conectar a contenedor por terminal de forma interactiva
 ```bash
 docker exec --interactive --tty <contenedor id> /bin/bash
 ```
