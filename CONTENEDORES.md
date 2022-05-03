@@ -72,6 +72,21 @@ Ctrl+P Ctrl+Q
 
 ## Volúmenes y archivos
 
+### Listar volumenes
+```bash
+docker volume ls
+```
+
+### Muestra información del volume
+```bash
+docker volume inspect <volume name>
+```
+
+### Eliminar volume
+```bash
+docker volume rm <volume name>
+```
+
 ### Vincular volumen de OS host con contenedor
 ```bash
 docker run -v <directorio o archivo local>:<directorio o archivo en contenedor>:<permisos(ro/rw)> -d -p <imagen>
