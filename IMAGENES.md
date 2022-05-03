@@ -20,3 +20,8 @@ docker pull <palabra clave>:<tag>
 docker commit <contenedor id> <nombre de nueva imágen>
 ```
 
+### Eliminar iamgen
+```bash
+docker rmi <imagen>
+```
+
