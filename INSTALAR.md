@@ -1,6 +1,8 @@
-# INSTALL Docker
+# INSTALAR Docker
 
-## Instalar docker para linux
+Pasos para instalar docker en linux.
+
+## Instalar docker
 
 Se utiliza el siguiente script para la instalación automática para Ubuntu.
 
@@ -15,7 +17,7 @@ curl -k https://get.docker.com -o docker_installer.sh
 sudo sh docker_installer.sh
 ```
 
-## Aplicar permisos a usuario sin privilegios
+## Aplicar permisos a usuario sin privilegios (no es necesario si sos SUDOER)
 
 Luego de leer un poco no se si es necesario hacer esto, ya que con sudo suficiente para trabajar con usuarios sin privilegios. Pero de todas maneras dejo la info a mano.
 

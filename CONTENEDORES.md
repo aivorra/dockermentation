@@ -1,5 +1,7 @@
 # CONTENEDORES
 
+Comandos para la gestión de contenedores.
+
 ## Run
 
 ### Crear y arrancar contenedor de imágen

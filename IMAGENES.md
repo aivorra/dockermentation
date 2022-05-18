@@ -1,5 +1,7 @@
 # IMÁGENES
 
+Comandos para la gestión de imágenes.
+
 ### Ver lista de imágenes locales
 ```bash
 docker images
