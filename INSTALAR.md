@@ -62,9 +62,17 @@ Ahora no debería mostrar ningún error.
 
 ## Información de docker cliente y servidor
 ```bash
-docker info
+sudo docker info
 ```
 y
 ```bash
-docker version
+sudo docker version
 ```
+
+## Test - Hola mundo
+
+Iniciar contenedor hello-world
+```bash
+sudo docker run hello-world
+```
+Si se muestra el texto "Hello from Docker!", significa que docker está funcionando correctamente.

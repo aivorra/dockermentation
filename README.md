@@ -22,7 +22,7 @@ sudo docker run --name postgres_test -e POSTGRES_PASSWORD=12345678 -d postgres
 2. Conectar a linux de contenedor
 
 ```bash
-sudo docker exec -it bec /bin/bash
+sudo docker exec -it [id contenedor] /bin/bash
 ```
 
 3. Conectar a psql
